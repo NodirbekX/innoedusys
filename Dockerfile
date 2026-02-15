@@ -1,9 +1,5 @@
 FROM php:8.3-apache
 
-# Disable other MPMs, enable prefork
-RUN a2dismod mpm_event mpm_worker \
-    && a2enmod mpm_prefork
-
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
     git \
