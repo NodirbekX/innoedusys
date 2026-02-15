@@ -1,12 +1,6 @@
-FROM php:8.3-apache
+FROM php:8.3-cli
 
-# Force clean MPM setup
-RUN rm -f /etc/apache2/mods-enabled/mpm_*.load \
-    && rm -f /etc/apache2/mods-enabled/mpm_*.conf \
-    && a2enmod mpm_prefork \
-    && a2enmod rewrite
-
-# Install packages
+# Install system packages
 RUN apt-get update && apt-get install -y \
     git unzip libzip-dev zip \
     libpng-dev libonig-dev libxml2-dev \
@@ -16,12 +10,14 @@ WORKDIR /var/www/html
 
 COPY . .
 
+# Install Composer
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
 RUN composer install --no-dev --optimize-autoloader
 
+# Set permissions
 RUN chown -R www-data:www-data /var/www/html
 
-EXPOSE 80
+EXPOSE 8000
 
-CMD ["apache2-foreground"]
+CMD php artisan serve --host=0.0.0.0 --port=${PORT:-8000}
