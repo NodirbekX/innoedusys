@@ -1,5 +1,10 @@
 FROM php:8.3-apache
 
+RUN rm -f /etc/apache2/mods-enabled/mpm_*.load \
+    && rm -f /etc/apache2/mods-enabled/mpm_*.conf \
+    && a2enmod mpm_prefork
+
+
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
     git \
