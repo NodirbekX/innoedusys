@@ -95,7 +95,13 @@ return [
             'prefix' => '',
             'prefix_indexes' => true,
             'search_path' => 'public',
-            'sslmode' => 'prefer',
+            'sslmode' => env('DB_SSLMODE', 'prefer'),
+            // Supabase transaction pooler (:6543) does not persist server-side
+            // prepared statements across pooled connections. Set
+            // DB_EMULATE_PREPARES=true when using port 6543.
+            'options' => array_filter([
+                PDO::ATTR_EMULATE_PREPARES => env('DB_EMULATE_PREPARES', false),
+            ], fn ($v) => $v !== false),
         ],
 
         'sqlsrv' => [
