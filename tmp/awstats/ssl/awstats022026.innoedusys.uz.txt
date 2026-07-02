@@ -1,0 +1,954 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202602 will be lost/reset.
+# Last config file used to build this data file was /home/host8204/tmp/awstats/ssl/awstats.innoedusys.uz.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2085                
+POS_TIME 2765                
+POS_VISITOR 16320               
+POS_DAY 25026               
+POS_DOMAIN 3685                
+POS_LOGIN 4233                
+POS_ROBOT 4388                
+POS_WORMS 4915                
+POS_EMAILSENDER 5046                
+POS_EMAILRECEIVER 5189                
+POS_SESSION 25607               
+POS_FILESIZE 28340               
+POS_REQUESTTIME 28489               
+POS_SIDER 25817               
+POS_FILETYPES 5324                
+POS_DOWNLOADS 5712                
+POS_OS 6141                
+POS_BROWSER 6551                
+POS_SCREENSIZE 7927                
+POS_UNKNOWNREFERER 8001                
+POS_UNKNOWNREFERERBROWSER 8644                
+POS_ORIGIN 9142                
+POS_SEREFERRALS 9288                
+POS_PAGEREFS 9475                
+POS_SEARCHWORDS 10768               
+POS_KEYWORDS 10920               
+POS_MISC 2427                
+POS_ERRORS 10979               
+POS_CLUSTER 4089                
+POS_SIDER_404 11189               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20260301001247 44 7312 11333609185322
+FirstTime 20260209191633
+LastTime 20260228202325
+LastUpdate 20260301180514 44 0 43 0 0
+TotalVisits 503                 
+TotalUnique 216                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 220                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 134 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 56 213 3300583 75 78 3688089
+1 47 128 1982086 75 77 14509396
+2 50 139 2561603 85 93 7281940
+3 43 125 2669019 64 68 2397437
+4 38 110 2437753 76 78 10885044
+5 46 144 2455392 79 86 7312210
+6 37 102 1852556 161 172 4761883
+7 48 124 58551614 63 66 15514
+8 56 136 74182931 94 95 7302924
+9 118 228 213504276 93 101 3717049
+10 42 126 3924368 85 96 7456599
+11 34 106 1721313 74 77 14514639
+12 37 97 1440349 85 92 14565008
+13 38 98 1297366 78 80 11010
+14 74 161 52273384 102 108 19077414
+15 183 266 1524395 147 148 3667934
+16 58 152 1216942 100 110 21501616
+17 58 139 1732375 95 103 7295051
+18 49 137 56960104 78 91 1878548
+19 143 286 289404867 159 301 26367400
+20 121 324 83933374 150 194 7584896
+21 98 225 122939760 130 147 8515597
+22 79 194 3010977 109 126 215289
+23 54 129 1898659 121 124 7464875
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 22
+in 586 2541 39462551
+uz 302 395 307445322
+us 269 401 5059340
+fi 168 215 2771637
+es 91 112 172545907
+no 69 69 741552
+de 40 52 622345
+cn 23 28 701510
+gb 16 24 352787
+ca 10 10 124030
+be 8 8 84809
+fr 6 6 101562
+se 4 4 37893
+ru 3 3 26985
+ch 3 7 72071
+it 3 3 35151
+cl 2 2 23495
+iq 1 2 33286
+bd 1 4 77705
+jp 1 1 2753
+eu 1 1 11749
+ro 0 1 13830
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+Googlebot/ 45 422914 20260227144423 11
+Go\-http\-client/ 8 75995 20260211223324 2
+AdsBot\-Google[\x20]\( 5 119261 20260218120511 0
+scrapy 4 20372 20260209202142 0
+crawl 4 46836 20260209212808 0
+no_user_agent 4 276 20260228052550 4
+unknown 4 276 20260222165838 4
+Applebot/ 4 5680 20260210161655 2
+TelegramBot 2 5541 20260209192639 0
+Adsbot 2 5590 20260218120035 0
+Wget/ 1 11705 20260213091233 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 17
+svg 56 162349 0 0
+css 1002 23952435 0 0
+js 1019 22111500 0 0
+env 1 11775 0 0
+txt 2 23542 0 0
+shtml 1 11765 0 0
+html 212 2142042 0 0
+docx 2 2401540 0 0
+woff 15 340000 0 0
+action 2 23548 0 0
+png 190 129945 0 0
+php 11 129052 0 0
+xml 2 1831 0 0
+json 12 47741 0 0
+pdf 4 16091496 0 0
+mp4 7 346400964 0 0
+Unknown 1351 6339933 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 6
+/storage/presentations/kirish%201-topshiriq.pdf 4 0 16091496
+/.well-known/security.txt 2 0 23542
+/storage/presentations/1-Amaliy%20ish%20KT.docx 1 0 2401540
+/storage/videos/Il0XBDfI6dDbaYXjPrh4iXR9By7oV8Kj4477IYbp.mp4 0 9 92753963
+/storage/videos/Q20PXyT9hlvy90ngMJNzsEcO1KxvtmfaO6RJNWmh.mp4 0 35 298368596
+/storage/videos/f1yq1XXDaTyMZF3LMahwl35f0Z0UogQK3QfDLS3w.mp4 0 7 65305217
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 24
+palmos 1 1
+win8 1 1
+macos11 1 1
+androidnougat 19 7
+androidoreo 4 1
+ios_iphone 64 20
+linuxcentos 1 1
+macosx15 343 294
+win7 19 13
+Unknown 2631 687
+macosx8 1 1
+win10 626 451
+macosx9 3 3
+android11 1 1
+android13 7 3
+macosx 1 1
+androidmarshmallow 19 9
+android10 62 36
+win8.1 1 1
+linuxubuntu 3 3
+macosx11 1 1
+linux 128 68
+bsdfreebsd 2 2
+android12 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 67
+chrome135.0.0.0 1 1
+chrome126.0.6478.57 2 2
+chrome98.0.4758.141 1 1
+chrome93.0.4577.0 308 267
+chrome58.0.3029.110 2 2
+chrome100.0.4896.60 1 1
+chrome125.0.0.0 18 7
+edge12 1 1
+chrome131.0.0.0 1 1
+chrome142.0.0.0 8 8
+firefox134.0 2 2
+iphone 6 2
+chrome49.0.2623.112 14 9
+chrome138.0.7204.23 52 14
+chrome15.0.874.120 1 1
+edge18 6 2
+chrome124.0.0.0 1 1
+chrome137.0.0.0 1 1
+safari11.0 1 1
+firefox21.0 1 1
+chrome94.0.4590.2 18 6
+chrome67.0.2366 1 1
+safari17.0 2 1
+chrome126.0.6264.129 1 1
+firefox140.0 2 2
+chrome134.0.0.0 1 1
+msie5.01 1 1
+chrome100.0.4896.127 1 1
+safari14.0.3 8 2
+chrome114.0.0.0 1 1
+msie7.0 1 1
+chrome105.0.2346 1 1
+chrome117.0.0.0 27 23
+chrome117.0.5938.132 12 4
+chrome79.0.3945.79 16 5
+chrome144.0.7559.109 7 3
+chrome120.0.0.0 2 2
+mozilla 2 2
+chrome129.0.0.0 9 3
+chrome144.0.7559.132 10 7
+chrome101.0.4951.41 2 2
+chrome130.0.0.0 14 4
+chrome83.0.4103.61 4 3
+chrome139.0.0.0 3 1
+netscape5.0 96 93
+chrome138.0.0.0 1 1
+Unknown 2537 596
+safari 49 15
+chrome59.0.3071.125 1 1
+chrome4.0.207.0 1 1
+chrome144.0.0.0 491 367
+chrome119.0.0.0 6 2
+galeon 1 1
+chrome47.0.2526.106 1 1
+firefox21.0.1 1 1
+minefield 1 1
+safari17.1 1 1
+firefox120.0 13 13
+chrome132.0.0.0 1 1
+chrome116.0.0.0 24 20
+chrome143.0.0.0 5 2
+firefox147.0 30 13
+firefox124.0 2 2
+chrome141.0.0.0 45 39
+chrome136.0.0.0 1 1
+firefox142.0 2 2
+chrome145.0.0.0 56 30
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 9
+Python/3.11_aiohttp/3.9.2 20260223093442
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20260223034022
+Serf/1.3.9_(mod_pagespeed/1.13.35.2-0) 20260228184518
+{USER_AGENT} 20260220173317
+python-httpx/0.28.1 20260218042726
+Mozilla/5.0_(l9scan/2.0.43e2935313e2833313e25343;__https://leakix.net) 20260209194010
+Mozilla/5.0 20260223184746
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20260210162043
+okhttp/5.3.0 20260227054710
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+python-httpx/0.28.1 20260218042726
+{USER_AGENT} 20260220173317
+Midori/0.1.10_(X11;_Linux_i686;_U;_en-us)_WebKit/(531).(2) 20260228202325
+okhttp/5.3.0 20260227054710
+Python/3.11_aiohttp/3.9.2 20260223093442
+Serf/1.3.9_(mod_pagespeed/1.13.35.2-0) 20260228184518
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20260223034022
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1212 1250
+From1 0 0
+From2 23 23
+From3 23 358
+From4 349 2309
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+bing_com_catchall 1 1
+www_google_com 22 22
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 11
+https://webmail.innoedusys.uz/cPanel_magic_revision_1748449569,_unprotected,_cpanel,_fonts,_open_sans,_open_sans.min.css+cPanel_magic_revision_1758823910,_unprotected,_cpanel,_style_v2_optimized.css.pagespeed.cc.KjoQLGY6ma.css 9 27
+http://webmail.innoedusys.uz 3 3
+https://panel2.eskiz.uz:2083 3 3
+https://webmail.innoedusys.uz/A.cPanel_magic_revision_1748449569,,_unprotected,,_cpanel,,_fonts,,_open_sans,,_open_sans.min.css+cPanel_magic_revision_1758823910,,_unprotected,,_cpanel,,_style_v2_optimized.css,Mcc.KjoQLGY6ma.css.pagespeed.cf.VgWrU_wYL0.css 3 14
+https://webmail.innoedusys.uz/A.cPanel_magic_revision_1748449569,,_unprotected,,_cpanel,,_fonts,,_open_sans,,_open_sans.min.css+cPanel_magic_revision_1758823910,,_unprotected,,_cpanel,,_style_v2_optimized.css,Mcc.KjoQLGY6ma.css.pagespeed.cf.8i3MczXA_T.css 3 9
+https://mail.innoedusys.uz 2 2
+https://mail.innoedusys.uz/login 0 56
+https://webmail.innoedusys.uz 0 220
+https://webmail.innoedusys.uz/cPanel_magic_revision_1758823910/unprotected/cpanel/style_v2_optimized.css 0 3
+https://webmail.innoedusys.uz 0 15
+https://webmail.innoedusys.uz/z0f76a1d14fd21a8fb5fd0d03e0fdc3d3cedae52f 0 6
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 10
+204 5 0
+421 2 724
+405 110 186245780
+404 1159 2836518
+500 24 11531513
+415 17 154175
+308 2 193
+413 3 14508
+419 2 13330
+302 1167 412319
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 201
+/admin 88 -
+/.well-known/traffic-advice 9 -
+/sitemaps/.env 1 -
+/build/main.js 2 -
+/secrets.env 1 -
+/back-end/app/.env 1 -
+/config.env 1 -
+/app/.env 1 -
+/%3Flocale%3Des 1 -
+/%3Flocale%3Dzh_tw 1 -
+/app/client/.env 1 -
+/service/.env 1 -
+/latest/.env 1 -
+/env.txt 1 -
+/main.js 1 -
+/%3Flocale%3Dnl 1 -
+/.docker/.env 1 -
+/.c9/metadata/environment/.env 1 -
+/register 2 -
+/build/app.js 4 -
+/Assignment3/.env 1 -
+/https%3A/mail.innoedusys.uz/build/assets/app-CiZ6hk-B.js 2 -
+/ch2-mytodo/.env 1 -
+/.env 2 -
+/%3Flocale%3Dfil 1 -
+/local/.env 1 -
+/build/.env 1 -
+/framework/.env 1 -
+/config/app.php 1 -
+/dev/config.php 1 -
+/assets/js/main.js 4 -
+/docker-elk/.env 1 -
+/info.php 1 -
+/https%3A/mail.innoedusys.uz/login 6 -
+/index.php 31 -
+/%3Flocale%3Dms 1 -
+/%3Flocale%3Dpt 1 -
+/media/.env 1 -
+/logging/.env 1 -
+/%3Flocale%3Dfr 1 -
+/%3Flocale%3Del 1 -
+/server.log 1 -
+/phpsysinfo 1 -
+/WEB-INF/web.xml 1 -
+/%3Flocale%3Dnb 1 -
+/source/.env 1 -
+/install/.env 1 -
+/.env.production.local 1 -
+/ch6-mytodo/.env 1 -
+/application/.env 1 -
+/%3Flocale%3Did 1 -
+/d/.env 1 -
+/constants.js 2 -
+/%3Flocale%3Des_es 1 -
+//mail.innoedusys.uz/login' 2 -
+/%3Flocale%3Dsv 1 -
+/.env.local 1 -
+/static/js/main.js 3 -
+/https%3A/innoedusys.uz/login 6 -
+/debug/default/view 6 -
+/.git/config 3 -
+/runtime.js 1 -
+/public/js/bundle.js 4 -
+/wp-config.php-backup 2 -
+/https%3A/go.cpanel.net/ie11deprecation 1 -
+/build/static/js/main.js 5 -
+/favicons/.env 1 -
+/cmd/testdata/expected/dot_env/.env 1 -
+/415.shtml 2 http://webmail.innoedusys.uz/
+/dist/app.js 2 -
+/%3Flocale%3Dtr 1 -
+/.env.production 1 -
+/https%3A/innoedusys.uz/register 4 -
+/bootstrap/cache/config.php 1 -
+/web/debug/default/view 2 -
+/bundle.js 5 -
+/dist/bundle.js 7 -
+/https%3A/mail.innoedusys.uz/forgot-password 3 -
+/public/js/main.js 5 -
+/frontend/web/debug/default/view 2 -
+/bucoffea/.env 1 -
+/07-accessing-data/begin/vue-heroes/.env 1 -
+/phpinfo.php3 1 -
+/saas/.env 1 -
+/system/.env 1 -
+/build/static/js/bundle.js 3 -
+/.travis.yml 1 -
+/.bak 1 -
+/app_dev.php/_profiler/open 1 -
+/env.sh 1 -
+/horde/.env 1 -
+/%C0 2 -
+/info.php.bak 1 -
+/wp-login.php 25 -
+/%3Flocale%3Dko 1 -
+/javascript%3Avoid%280%29 1 -
+/api.js 5 -
+/https%3A/go.cpanel.net/privacy 1 -
+/%3Flocale%3Dar 1 -
+/%3Flocale%3Dda 1 -
+/) 1 -
+/sites/.env 1 -
+/src/.env 1 -
+/tool/view/phpinfo.view.php 2 -
+/js/main.js 1 -
+/.bashrc 1 -
+/ 557 -
+/%3Flocale%3Des_419 1 -
+/%3Flocale%3Dro 1 -
+/_dev 1 -
+/sitemap.xml 1 -
+/%3Flocale%3Dja 1 -
+/public/js/app.js 5 -
+/preland/ 2 -
+/js/lkk_ch.js 2 -
+/asset_img/.env 1 -
+/wp-config.php.backup 1 -
+/web/.env 1 -
+/sendgrid.env 1 -
+/%3Flocale%3Dvi 1 -
+/conn.php.bak 1 -
+/prod/.env 1 -
+/static/js/app.js 2 -
+/.env.sh 1 -
+/well-known/.env 1 -
+/robots.txt 9 -
+/z0f76a1d14fd21a8fb5fd0d03e0fdc3d3cedae52f 4 https://webmail.innoedusys.uz/404.shtml
+/keys.js 1 -
+/checkout.js 6 -
+/services/.env 1 -
+/core/.env 1 -
+/css/support_parent.css 2 -
+/js/twint_ch.js 2 -
+/https%3A/innoedusys.uz/build/assets/app-CiZ6hk-B.js 6 -
+/.aws/credentials 1 -
+/preview/.env 1 -
+/vendor.js 4 -
+/error.log 1 -
+/modules/contrib/sendgrid_mail/translations/sendgrid_mail.fr.po 1 -
+/logs/error.log 1 -
+/config.ini 1 -
+/logs/ 1 -
+/env.js 4 -
+/%3Flocale%3Dhe 1 -
+/dist/main.js 5 -
+/_profiler/phpinfo 2 -
+/backend/.env 1 -
+/https%3A/innoedusys.uz/forgot-password 5 -
+/favicon.png 15 -
+/sapi/debug/default/view 2 -
+/.env.example 1 -
+/storage/videos/Q20PXyT9hlvy90ngMJNzsEcO1KxvtmfaO6RJNWmh.mp4 2 https://innoedusys.uz/home/1
+/api/config.php 1 -
+/system-config/.env 1 -
+/api/.env 1 -
+/ubuntu/.env 1 -
+/api 91 -
+/build/bundle.js 1 -
+/https%3A/mail.innoedusys.uz/register 3 -
+/debug/default/view.html 2 -
+/control/.env 1 -
+/.env.backup 1 -
+/%3Flocale%3Dhu 1 -
+/connection.php.bak 1 -
+/.well-known/apple-app-site-association 3 -
+/files/.env 1 -
+/storage/presentations/kirish%201-topshiriq.pdf 2 https://innoedusys.uz/home/1
+/bookchain-client/.env 1 -
+/assets/js/app.js 3 -
+/login 10 https://panel2.eskiz.uz:2083/
+/%3Flocale%3Dpl 1 -
+/phpinfo 1 -
+/apple-app-site-association 3 -
+/stripe.js 5 -
+/%3Flocale%3Dcs 1 -
+/.azure-pipelines.yml 1 -
+/%3Flocale%3Dit 1 -
+/frontend/.env 1 -
+/wp-content/mysql.sql 1 -
+/log.txt 1 -
+/.env_copy 1 -
+/gists/cache 1 -
+/.env_old 1 -
+/settings.php.bak 1 -
+/_info.php 1 -
+/backend/.env.local 1 -
+/tmp/config/.env 1 -
+/bundle.js.map 1 -
+/locally/.env 1 -
+/%3Flocale%3Dde 1 -
+/data%3Aimage/x-icon%3Bbase64%2CAAABAAEAICAAAAEAIADSAgAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAAgAAAAIAgGAAAAc3p69AAAAplJREFUWIXt1j2IHGUYB/DfOzdnjIKFkECIVWIKvUFsIkRExa9KJCLaWAgWJx4DilZWgpDDiI0wiViIoGATP1CCEDYHSeCwUBBkgiiKURQJFiLo4d0eOxYzC8nsO9m9XcXC%2B8MW%2B3z%2B9/ 1 -
+/info.php.1 1 -
+/.envrc 1 -
+/payment.js 5 -
+/cPanel_magic_revision_1460573724/unprotected/cpanel/images/webmail-logo.svg 3 https://webmail.innoedusys.uz/z0f76a1d14fd21a8fb5fd0d03e0fdc3d3cedae52f
+/env 1 -
+/react_todo/.env 1 -
+/.idea/.env 1 -
+/info.txt 1 -
+/%3Flocale%3Dfi 1 -
+/js/app.js 4 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 220
+45.138.159.4 555 2494 38920268 20260223093442
+195.158.4.56 206 264 165323192 20260216185038
+95.214.210.252 81 110 159669125 20260210100744
+94.158.59.9 46 60 753223 20260215221455
+84.247.154.4 40 40 429834 20260223081202
+5.104.81.235 39 39 419034 20260223071155
+5.104.85.5 39 39 419004 20260223051120
+206.81.24.74 35 36 236911 20260209193959
+143.110.217.244 33 34 224766 20260209194010
+5.104.85.13 33 33 354519 20260223011148
+155.133.7.191 32 32 343890 20260223021114
+84.247.154.5 29 29 311718 20260222141136
+5.104.85.58 23 23 247260 20260223091115
+94.158.59.191 17 32 53118831 20260222141924
+94.158.62.76 16 41 87898001 20260209212732
+134.122.140.83 12 12 140714 20260225184141
+202.95.13.243 12 12 141028 20260221231218
+103.78.2.201 12 12 140920 20260225201531
+5.104.82.86 10 27 453912 20260223054607
+145.239.84.133 8 8 93703 20260220173317
+5.104.81.110 7 16 251331 20260223093141
+5.104.80.101 6 16 271160 20260215162827
+195.158.2.216 6 7 18792 20260211093832
+95.214.211.211 5 9 109827 20260213193940
+52.87.202.55 5 13 134196 20260227054749
+54.162.53.4 2 3 45039 20260211025142
+103.4.250.116 2 3 36071 20260209232048
+103.4.251.183 2 3 36069 20260209221139
+140.245.224.228 2 2 23566 20260219123712
+154.28.229.19 1 1 13729 20260209194315
+54.165.25.159 1 1 11654 20260219205325
+104.164.173.156 1 1 12842 20260209221109
+104.164.173.186 2 3 36118 20260209194429
+185.66.137.140 0 1 13830 
+149.57.180.158 1 1 13725 20260220005821
+5.104.84.225 3 8 135558 20260222081146
+54.226.75.180 1 1 11700 20260216195235
+5.104.84.227 1 1 10743 20260220071133
+100.26.170.194 1 3 47112 20260212170914
+192.104.34.34 1 1 11691 20260211000135
+106.75.144.174 2 3 103377 20260215041018
+195.201.168.79 1 1 2753 20260210083514
+3.80.22.25 1 1 11665 20260220211331
+23.20.57.173 2 5 80414 20260219181936
+23.27.145.151 1 1 2751 20260217005459
+204.101.161.15 1 1 2747 20260219014310
+23.27.145.68 1 3 47119 20260216220649
+206.204.33.168 1 4 77702 20260209204241
+198.235.24.34 1 1 38480 20260223034022
+195.158.18.235 4 8 109112 20260217161022
+149.57.180.153 1 1 2750 20260216211500
+5.104.84.226 2 2 21486 20260221031144
+107.172.195.29 1 1 14542 20260209205849
+172.233.62.72 1 1 2746 20260209193928
+54.204.178.61 1 1 11688 20260226024927
+192.234.198.86 4 4 46833 20260211034843
+104.253.252.100 1 3 47113 20260209204744
+23.27.145.161 1 1 2751 20260220030124
+213.188.65.152 1 2 33286 20260209204134
+35.192.128.239 1 1 15131 20260209204601
+13.223.224.184 1 4 77679 20260209194157
+68.235.45.59 5 9 129329 20260212174316
+104.253.247.78 1 3 48555 20260209204212
+154.28.229.53 1 1 2752 20260209194408
+103.4.250.216 1 1 2749 20260209232043
+162.120.187.255 1 1 2868 20260216162954
+23.27.145.251 1 1 2749 20260220005935
+5.9.50.77 2 6 94308 20260210083533
+3.111.60.168 2 2 23495 20260219123139
+37.110.214.47 3 5 10130 20260219093646
+100.31.255.43 2 5 161135 20260210141732
+13.216.242.36 1 3 47110 20260209200913
+205.169.39.95 2 5 80452 20260212000619
+13.221.4.247 1 3 47112 20260216202948
+46.250.254.92 3 9 166124 20260215091626
+165.154.172.88 1 1 11689 20260211223321
+42.240.130.185 1 1 41757 20260214113319
+34.122.147.229 2 3 35226 20260210083936
+23.27.145.76 1 1 2784 20260216211339
+54.162.111.244 1 1 11669 20260217210322
+16.147.23.120 2 5 80458 20260209224756
+157.245.135.201 1 1 2753 20260212005755
+104.164.126.166 2 3 36117 20260209210022
+103.4.251.213 1 1 14548 20260209204146
+51.254.49.109 1 1 42815 20260209220604
+136.144.168.61 1 1 11755 20260224213003
+34.12.98.6 1 1 2749 20260210022934
+54.249.90.18 2 2 23548 20260219134530
+68.183.53.194 1 1 2753 20260211132240
+46.250.254.91 1 1 10743 20260212031204
+138.197.132.54 1 1 2750 20260217094011
+100.31.125.39 2 5 80410 20260211180529
+44.222.121.113 2 5 161091 20260210020222
+57.128.247.242 5 5 58635 20260215064608
+84.54.105.137 1 4 129000 20260211093806
+13.219.96.31 1 1 11715 20260221202815
+34.72.176.129 0 4 68033 
+104.197.69.115 4 8 113719 20260210083940
+104.164.173.218 2 2 29089 20260209194329
+107.172.195.151 2 3 36054 20260209205843
+54.157.141.243 1 1 11694 20260209203307
+162.120.188.255 1 1 2747 20260216162953
+66.249.75.100 2 2 5572 20260209230747
+23.27.145.223 1 1 13733 20260211005824
+82.22.110.185 1 3 47113 20260210070939
+180.149.19.193 1 2 33330 20260209204135
+34.227.110.164 1 1 11811 20260224220053
+103.4.250.97 1 1 2749 20260209204121
+167.99.188.39 1 1 2749 20260217134104
+5.104.80.118 1 4 77701 20260209201836
+95.214.210.21 5 10 12766955 20260223095129
+205.169.39.100 5 14 138147 20260212001606
+34.232.76.205 1 1 11740 20260213200317
+149.57.180.181 1 1 13732 20260216211333
+54.165.160.158 1 3 47142 20260209194155
+57.128.252.182 2 2 23420 20260219080837
+35.175.249.43 2 5 80457 20260210061737
+154.28.229.212 1 1 2748 20260209221102
+84.54.105.40 1 4 77701 20260215211218
+3.111.153.238 2 2 23451 20260219150636
+45.55.231.153 1 1 2746 20260211022319
+23.27.145.74 1 1 13729 20260211210339
+205.169.39.20 4 12 121296 20260210011721
+65.21.87.187 2 2 23504 20260219133509
+103.4.251.106 1 1 2793 20260209221102
+34.239.186.14 2 5 80453 20260209195734
+54.173.82.82 1 1 11695 20260212083519
+42.240.130.92 1 2 92601 20260214113307
+44.203.23.160 1 4 77701 20260210155940
+72.14.201.104 1 1 2824 20260211093802
+104.164.126.163 1 1 2792 20260209221150
+106.75.144.250 1 1 10743 20260214190720
+23.27.145.234 1 1 2768 20260216211328
+104.164.173.219 2 2 25683 20260209221130
+104.252.191.124 2 2 27386 20260209204158
+66.102.9.135 1 1 2791 20260215221455
+5.104.81.237 3 6 99186 20260222151136
+94.158.58.204 2 4 7340 20260220224418
+149.57.180.40 1 1 13758 20260210005816
+52.205.255.2 1 3 47112 20260210155939
+137.220.156.246 1 1 11781 20260222190358
+104.164.126.12 1 1 2793 20260209232134
+45.149.150.116 1 2 33327 20260209204316
+3.85.207.142 1 3 47111 20260221201109
+5.104.80.196 1 1 10743 20260220081135
+47.251.24.105 1 1 2771 20260212001504
+23.27.145.189 1 1 13755 20260223205817
+106.75.187.68 2 4 185154 20260215031507
+66.249.75.102 2 2 5581 20260209205129
+103.196.9.37 2 3 36114 20260209204139
+34.123.170.104 1 3 35359 20260209205529
+18.237.215.183 4 14 462225 20260209224705
+162.43.251.103 0 2 44375 
+123.160.223.72 1 1 11684 20260212001442
+23.27.145.236 1 3 47115 20260216220530
+42.240.130.53 1 1 10800 20260214190722
+138.199.16.143 1 1 11749 20260223184746
+162.120.188.127 1 1 2865 20260215211239
+51.89.23.223 2 2 23454 20260219052117
+149.57.180.18 1 1 14673 20260217005519
+68.183.94.254 1 1 13760 20260212000517
+13.234.234.105 2 2 23423 20260219130236
+107.172.195.27 2 2 27386 20260209232118
+51.254.204.161 5 5 58747 20260219042525
+151.80.144.77 3 3 35151 20260215200310
+18.176.162.29 2 2 23463 20260219151139
+100.25.201.84 1 1 11716 20260210140257
+34.12.76.10 2 2 16526 20260210022931
+133.242.174.119 1 1 2753 20260210061427
+178.63.212.218 1 1 11725 20260211200522
+87.236.176.60 1 1 2754 20260210162043
+205.169.39.189 1 1 11741 20260212164239
+155.138.252.185 2 2 23378 20260219142535
+118.194.250.232 1 1 11789 20260211214906
+24.144.108.207 1 1 2754 20260221140250
+34.207.159.27 1 1 11710 20260222222736
+103.196.9.76 2 3 36073 20260209232134
+107.172.195.9 1 1 2770 20260209205954
+3.91.26.193 2 5 80492 20260209201309
+52.55.95.221 2 5 161136 20260210122742
+104.252.191.21 2 3 36090 20260209194338
+107.172.195.243 1 1 2791 20260209204118
+34.229.111.12 1 1 11715 20260227191200
+104.164.126.131 1 1 12844 20260209232130
+35.153.134.92 2 5 80453 20260209201559
+167.99.204.248 1 1 2752 20260211102734
+205.210.31.147 1 1 10743 20260221104045
+95.143.63.15 1 5 48722 20260223194423
+66.249.75.101 1 1 2748 20260210022341
+3.221.83.235 1 1 14202 20260228184518
+54.92.159.25 2 5 80490 20260209220458
+104.252.191.14 2 2 25688 20260209205853
+104.252.110.72 4 12 120936 20260209204314
+54.147.218.163 1 1 11680 20260228202325
+91.196.152.149 1 1 11738 20260209200918
+51.38.141.126 1 1 11650 20260219031216
+90.231.56.134 1 1 2749 20260210135540
+192.81.218.114 1 1 13725 20260219141532
+3.83.246.164 1 1 11710 20260223204520
+103.4.250.167 1 4 77670 20260209204303
+191.101.81.90 2 2 23495 20260219144007
+100.48.11.123 1 1 11771 20260218223207
+103.4.250.219 1 1 2749 20260209204121
+162.55.173.215 1 1 2769 20260209194014
+170.238.226.140 2 2 23349 20260219144009
+192.109.139.86 2 4 66570 20260218042726
+103.196.9.86 4 12 120451 20260209204141
+104.252.191.168 1 1 2793 20260209194328
+154.28.229.227 1 1 2751 20260209205833
+84.254.106.197 3 9 105852 20260216203050
+106.75.191.67 1 2 92577 20260215023837
+180.149.0.240 0 2 44375 
+162.120.187.209 1 1 2822 20260210145249
+198.235.24.181 1 1 10767 20260221021835
+15.204.182.106 2 2 5500 20260211093342
+72.61.169.21 1 1 11775 20260219150651
+94.247.172.129 3 3 35144 20260219114723
+54.198.100.70 4 4 47038 20260210115834
+162.120.187.127 3 3 8404 20260216163021
+185.247.137.40 1 1 12494 20260210105054
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 20
+20260209 220 471 492017929 77
+20260210 356 621 322129634 51
+20260211 101 254 4105011 41
+20260212 79 206 3244899 32
+20260213 21 55 909178 11
+20260214 42 122 3325415 15
+20260215 117 256 5246303 20
+20260216 67 191 2940024 25
+20260217 81 244 2901391 30
+20260218 75 222 2426470 29
+20260219 112 274 3361886 48
+20260220 95 260 3627598 36
+20260221 94 261 58688585 34
+20260222 86 242 53576563 27
+20260223 42 153 27640818 18
+20260224 2 2 23566 2
+20260225 8 8 93893 2
+20260226 1 1 11688 1
+20260227 6 29 312612 2
+20260228 2 17 192583 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+5mn-15mn 3
+15mn-30mn 5
+30s-2mn 20
+0s-30s 425
+2mn-5mn 1
+1h+ 27
+30mn-1h 22
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 86
+/login 1019 4855801 377 366
+/ 202 2117544 117 103
+/home 59 154342 0 1
+/oraliq-nazorat 31 102844 0 0
+/home/create 23 97585 0 0
+/resources 16 39925 0 0
+/register 15 73166 6 9
+/oraliq-nazorat/create 12 38508 0 0
+/api 11 105864 0 9
+/index.php 9 105648 0 0
+/admin 9 105655 0 0
+/yakuniy-nazorat 9 24025 0 0
+/home/15 7 31555 0 0
+/home/4 7 30806 0 0
+/home/3 6 28386 0 1
+/home/8 6 26906 0 0
+/.git/config 6 70555 3 3
+/cPanel_magic_revision_1748449569/unprotected/cpanel/fonts/open_sans/OpenSans-Bold-webfont.woff 5 112160 0 5
+/cPanel_magic_revision_1748449569/unprotected/cpanel/fonts/open_sans/OpenSans-Semibold-webfont.woff 5 114540 0 0
+/cPanel_magic_revision_1748449569/unprotected/cpanel/fonts/open_sans/OpenSans-Regular-webfont.woff 5 113300 0 0
+/home/9 5 22534 0 0
+/home/13 4 18074 0 0
+/home/12 4 18045 0 0
+/contact 4 11197 0 1
+/home/11 4 18065 0 0
+/api/gql 2 214 0 0
+/about 2 23439 0 0
+/home/10/edit 2 6830 0 0
+/swagger-ui.html 2 214 0 0
+/home/9/edit 2 6825 0 0
+/home/5/edit 1 3415 0 0
+/v2/_catalog 1 107 0 0
+/info.php 2 23404 0 0
+/.vscode/sftp.json 2 23480 0 0
+/home/4/edit 1 3414 0 0
+/server-status 2 23601 0 0
+/404.shtml 1 11765 0 1
+/v2/api-docs 2 214 0 0
+/api/swagger.json 2 214 0 0
+/home/16 3 13492 0 0
+/home/6/edit 2 6826 0 0
+/oraliq-nazorat/12/edit 1 3363 0 0
+/home/7/edit 2 6822 0 0
+/home/21 1 4583 0 1
+/home/14/edit 2 6830 0 0
+/forgot-password 3 25473 0 0
+/api-docs/swagger.json 2 214 0 0
+/resources/create 1 2586 0 0
+/home/3/edit 2 6822 0 0
+/home/6 4 18176 0 0
+/home/7 3 13518 0 0
+/graphql 2 214 0 0
+/@vite/env 2 23481 0 0
+/api/graphql 2 214 0 0
+/home/12/edit 2 6825 0 0
+/v3/api-docs 2 214 0 0
+/home/1 1 4669 0 0
+/swagger.json 2 214 0 0
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 2 23556 0 0
+/verify-email 3 8298 0 0
+/telescope/requests 2 23430 0 0
+/home/8/edit 2 6823 0 0
+/home/13/edit 2 6834 0 0
+/graphql/api 2 214 0 0
+/swagger/ 2 214 0 0
+/server 2 23510 0 0
+/home/10 4 18074 0 0
+/home/11/edit 2 6824 0 0
+/.DS_Store 2 23548 0 0
+/oraliq-nazorat/11/edit 1 3364 0 0
+/webjars/swagger-ui/ 2 214 0 0
+/oraliq-nazorat/4/edit 2 6726 0 0
+/oraliq-nazorat/7/edit 2 6725 0 0
+/home/5 4 17082 0 1
+/swagger/v1/swagger.json 2 214 0 0
+/home/15/edit 3 10261 0 0
+/sitemap.xml 2 1831 0 0
+/home/14 4 18077 0 0
+/debug/default/view 2 23681 0 2
+/swagger/swagger-ui.html 2 214 0 0
+/login.action 2 23548 0 0
+/.env 1 11775 0 0
+/config.json 2 23405 0 0
+/actuator/env 2 23481 0 0
+/s/43e2935313e2833313e25343/_/ 2 23642 0 0
+/home/16/edit 1 3420 0 0
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 7
+0-44 2198
+500-1K 63
+2K-5K 1152
+44-100 23
+5K+ 1825
+1K-2K 81
+100-500 1309
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME
